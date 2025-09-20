@@ -1,20 +1,4 @@
-Bhai mast 👌, ab mujhe clear ho gaya – tumhe **Assignment #2 ka full exam-ready notes format** chahiye, jisme:
 
-* **Har ek question ka answer** iss flow me ho:
-
-  1. **Topic ka explanation** (theory in depth, simple language + definitions)
-  2. **Formulas ka explanation** (kyun use hote h, kis case me hote h)
-  3. **Numerical ka solution step by step with explanation** (jaha numerical h)
-
-Yani Q1–Q14 **sequence wise complete notes** chahiye.
-
-👉 Iska output bada hoga, isliye mai tumhe ek **question-by-question series** bana ke dunga. Matlab pehle mai **Q1–Q2** full explanation + ready notes format bana ke dunga, phir tum bolo **"Next"**, to mai Q3–Q4 karunga, and so on, taaki tumhe ekdam clear aur exam ke liye properly structured notes mil jaye.
-
----
-
-### ✅ Start karte hain Q1 aur Q2 se:
-
----
 
 ## **Q1. What are the slip mechanisms found in crystals?**
 
