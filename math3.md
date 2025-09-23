@@ -1,31 +1,31 @@
-Nice — chalo pehle **1** aur **2** solve kar dete hain, **Hinglish** mein step-by-step aur yaad rakhne layak style.
+Q1. State Sylvester’s Law of Inertia
+Solution:
+Sylvester's Law of Inertia kehta hai ki:
 
-# 1) Sylvester’s law (of inertia) — simple samjhaawa
+Ek real symmetric matrix 
+A
+A ko jab bhi hum congruent transformation se diagonalize karte hain (yani 
+P
+A
+P
+T
+PAP 
+T
+  form mein, jahan 
+P
+P invertible matrix hai), toh diagonal matrix mein:
 
-**Statement (short):**
-Agar $A$ ek real **symmetric** matrix hai, toh koi invertible $P$ exist karta hai jisse
+Positive entries ki sankhya hamesha same rehti hai (ise positive index kehte hain).
 
-$$
-P^T A P = \operatorname{diag}(\underbrace{+1,\dots,+1}_{p},\underbrace{-1,\dots,-1}_{q},\underbrace{0,\dots,0}_{r}).
-$$
+Negative entries ki sankhya hamesha same rehti hai (ise negative index kehte hain).
 
-Yeh $p,q,r$ (positive, negative, zero counts) **kabhi change nahi karte** for any congruence $P^TAP$. Inka triple $(p,q,r)$ ko **inertia** bolte hain.
+Zero entries ki sankhya hamesha same rehti hai (yeh rank decide karti hai).
 
-**Hinglish explanation / intuition:**
-
-* A symmetric matrix $A$ ko quadratic form $Q(x)=x^T A x$ se dekho. Basis change (i.e. $x = P y$) se form ka shape badalta hai lekin **kitne directions positive, kitne negative, kitne neutral (zero)** — yeh count nahi badalte.
-* Matlab basis badalne se tum sign values (jaise +5 → +1 by scaling) change kar sakte ho, par **kitne + aur kitne -** remain same.
-
-**Example (quick):**
-Agar $A=\operatorname{diag}(2,3,-5,0)$ toh inertia $(2,1,1)$. Kisi bhi $P$ se congruent matrix bhi inertia $(2,1,1)$ hi dikhayega (shapes/entries alag ho sakti hain, counts nahi).
-
-**Proof-idea (one-liner):**
-Use reduction by completing squares (Gaussian elimination for quadratic forms) — har step congruence operation hoti hai and final diagonal signs fixed; rigorous proof uses Sylvester’s law.
-
-**Memory tip (short):**
-“**Signs count fixed** under $P^TAP$.” — yaad rakhne ke liye: *Sylvester = Signs stay same*.
-
----
+Ye teeno numbers (positive, negative, zero) matrix 
+A
+A ke inertia kehlate hain aur ye 
+A
+A ke liye invariant hain, chahe hum koi bhi congruent transformation kyun na use karein.
 
 # 2) Dimensions — jaldi aur yaad rakhne waale rules + examples
 
